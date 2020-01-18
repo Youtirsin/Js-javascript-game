@@ -47,7 +47,7 @@ function Player(playground) {
                 this.deadvoice.play();
                 this.entity.className="dead";
                 setTimeout(() => {
-                    window.location.reload();
+                    window.location.href="index.html"
                 }, 5000);
             }
             console.log(this.HP);

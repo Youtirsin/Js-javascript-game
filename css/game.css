@@ -30,6 +30,7 @@ body{
     border:solid 6px black;
     border-radius: 10px;
     position: absolute;
+    background: rgb(200,200,200);
 }
 #start{
     font-size: 24px;
@@ -43,6 +44,7 @@ body{
     border: solid 3px black;
     font-weight: bolder;
     cursor: pointer;
+    border-radius: 5px;
 }
 .player{
     width:80px;
