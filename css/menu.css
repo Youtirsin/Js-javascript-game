@@ -38,4 +38,5 @@ body{
     font-weight: bolder;
     cursor: pointer;
     margin: 20px;
+    outline: none;
 }

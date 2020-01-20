@@ -45,6 +45,7 @@ body{
     font-weight: bolder;
     cursor: pointer;
     border-radius: 5px;
+    outline:none;
 }
 .player{
     width:80px;
