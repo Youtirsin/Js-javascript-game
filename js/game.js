@@ -47,7 +47,7 @@ function Player(playground) {
                 this.deadvoice.play();
                 this.entity.className="dead";
                 setTimeout(() => {
-                    window.location.href="index.html"
+                    window.location.href="index.html";
                 }, 5000);
             }
             console.log(this.HP);
@@ -173,8 +173,6 @@ function start(){
         }
     });
 };
-
-
 function getRandom(maxNum, minNum) {
     return parseInt(Math.random() * (maxNum - minNum + 1) + minNum, 10);
 }
