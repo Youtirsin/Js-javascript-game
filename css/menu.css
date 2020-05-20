@@ -39,4 +39,8 @@ body{
     cursor: pointer;
     margin: 20px;
     outline: none;
+    transition: background 0.3s;
+}
+.btn:hover{
+    background: #e0e0e0;
 }
